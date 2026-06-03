@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Cường Quốc - Điện Lạnh & Điều Hòa</title>
+    <link rel="icon" type="image/png" href="logoicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER / TABBAR -->
+    <header class="header">
+      <div class="header-inner">
+        <a href="#trang-chu" class="logo" aria-label="VinCool">
+          <img class="logo-img" src="logoicon.png" alt="VinCool" />
+        </a>
+
+        <button class="nav-toggle" aria-label="Mở menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="#trang-chu">Trang chủ</a>
+          <a href="#gioi-thieu">Giới thiệu</a>
+          <a href="#dich-vu">Dịch vụ</a>
+          <a href="#bang-gia">Bảng giá</a>
+          <a href="#kinh-nghiem">Kinh nghiệm</a>
+          <a href="#lien-he">Liên hệ</a>
+        </nav>
+
+        <button class="search-btn" aria-label="Tìm kiếm">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <path d="M20 20l-4-4" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- PHẦN 1: Carousel 3 ảnh -->
+    <section id="trang-chu" class="hero">
+      <div class="carousel">
+        <div class="carousel-track">
+          <div
+            class="carousel-slide slide-1"
+            style="background-image: url('headerimg.png')"
+          >
+            <div class="slide-content">
+              <div class="slide-profile">
+                <img
+                  src="logoicon.png"
+                  alt="Logo VinCool"
+                  class="slide-profile-logo"
+                />
+                <p class="slide-label">Profile</p>
+              </div>
+              <h1 class="slide-title">
+                Công ty TNHH Thương mại Dịch vụ Cường Quốc
+              </h1>
+              <p class="slide-desc">
+                Chuyên sửa chữa, lắp đặt điều hòa, tủ lạnh, máy giặt — phục vụ
+                24/7 tại TP.HCM.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-slide slide-2"
+            style="
+              background-image: linear-gradient(135deg, #1565c0 0%, #1e88e5 50%),
+                url('headerimg.png');
+            "
+          >
+            <div class="slide-content">
+              <p class="slide-label">Dịch vụ</p>
+              <h1 class="slide-title">
+                Sửa chữa & Bảo trì điện lạnh chuyên nghiệp
+              </h1>
+              <p class="slide-desc">
+                Đội ngũ kỹ thuật viên tay nghề cao, bảo hành chính hãng, báo giá
+                minh bạch.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-slide slide-3"
+            style="
+              background-image: linear-gradient(135deg, #0b2340 0%, #1565c0 60%),
+                url('headerimg.png');
+            "
+          >
+            <div class="slide-content">
+              <p class="slide-label">Cam kết</p>
+              <h1 class="slide-title">Nhanh chóng — An toàn — Tiết kiệm</h1>
+              <p class="slide-desc">
+                Tiếp nhận trong 15 phút, có mặt trong 30–60 phút khu vực nội
+                thành.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn carousel-prev" aria-label="Ảnh trước">
+          ‹
+        </button>
+        <button class="carousel-btn carousel-next" aria-label="Ảnh sau">
+          ›
+        </button>
+
+        <div class="carousel-dots">
+          <button class="active" aria-label="Slide 1"></button>
+          <button aria-label="Slide 2"></button>
+          <button aria-label="Slide 3"></button>
+        </div>
+
+        <div class="hero-cta">
+          <button class="btn-profile">⬇ Cường Quốc PROFILE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 2: Nhanh chóng / An toàn / Tiết kiệm -->
+    <section id="uu-diem" class="features">
+      <div class="container">
+        <div class="features-grid">
+          <article class="feature-item">
+            <svg
+              class="feature-icon"
+              viewBox="0 0 64 64"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M32 6c-8 12-12 22-12 32 0 4 4 8 12 8s12-4 12-8c0-10-4-20-12-32z"
+              />
+              <circle cx="32" cy="28" r="4" />
+              <path d="M24 46l-6 10M40 46l6 10M28 54h8" />
+            </svg>
+            <h3>Nhanh chóng</h3>
+            <p>
+              Nhanh chóng tiếp nhận thông tin. Có mặt nhanh chóng để giải quyết.
+              Chế độ bảo hành nhanh chóng.
+            </p>
+          </article>
+          <article class="feature-item">
+            <svg
+              class="feature-icon"
+              viewBox="0 0 64 64"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M32 6L8 18v14c0 14 10 24 24 26 14-2 24-12 24-26V18L32 6z"
+              />
+              <path d="M22 32l8 8 14-16" />
+            </svg>
+            <h3>An toàn</h3>
+            <p>
+              Giải quyết các vấn đề, sự cố hư hỏng đúng kỹ thuật. Đem lại sự yên
+              tâm tuyệt đối cho khách hàng khi sử dụng dịch vụ của Điện Lạnh
+              Cường Quốc.
+            </p>
+          </article>
+          <article class="feature-item">
+            <svg
+              class="feature-icon"
+              viewBox="0 0 64 64"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <ellipse cx="32" cy="36" rx="20" ry="16" />
+              <path d="M32 20v-6M28 14h8" />
+              <text
+                x="28"
+                y="40"
+                fill="currentColor"
+                stroke="none"
+                font-size="14"
+                font-weight="bold"
+              >
+                $
+              </text>
+            </svg>
+            <h3>Tiết kiệm</h3>
+            <p>
+              Làm việc theo bảng giá tránh các vấn đề phát sinh, có nhiều chính
+              sách ưu đãi. Giúp khách hàng tiết kiệm chi tiêu cho gia đình.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 3: Giới thiệu -->
+    <section id="gioi-thieu" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Giới thiệu</h2>
+          <p>Cường Quốc — Đối tác điện lạnh đáng tin cậy của gia đình bạn</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="minhhoa1.png"
+              alt="Kỹ thuật viên Cường Quốc kiểm tra dàn nóng máy lạnh"
+            />
+          </div>
+          <div class="about-text">
+            <h3>Công ty TNHH Thương mại Dịch vụ Cường Quốc</h3>
+            <p>
+              Cường Quốc là đơn vị chuyên sửa chữa, lắp đặt và bảo trì hệ thống
+              điện lạnh dân dụng tại TP.HCM. Chúng tôi tập trung vào thao tác kỹ
+              thuật chuẩn, tư vấn đúng nhu cầu và xử lý nhanh tại nhà.
+            </p>
+            <p>
+              Mỗi hạng mục đều được kiểm tra rõ tình trạng, báo giá trước khi
+              làm và có chính sách bảo hành minh bạch sau sửa chữa.
+            </p>
+            <div class="about-highlights">
+              <span>Máy lạnh</span>
+              <span>Tủ lạnh</span>
+              <span>Máy giặt</span>
+              <span>Điện lạnh dân dụng</span>
+            </div>
+            <div class="about-stats">
+              <div>
+                <strong>24/7</strong>
+                <span>Tiếp nhận hỗ trợ</span>
+              </div>
+              <div>
+                <strong>30-60'</strong>
+                <span>Có mặt nội thành</span>
+              </div>
+              <div>
+                <strong>Rõ ràng</strong>
+                <span>Báo giá & bảo hành</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 5: Dịch vụ -->
+    <section id="dich-vu" class="section services-section">
+      <div class="container">
+        <div class="section-title services-title">
+          <h2>Dịch vụ</h2>
+          <p>Trọn gói từ lắp đặt đến bảo trì định kỳ</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-visual" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <path
+                  d="M75 20l24 24-14 14-10-10-27 27 10 10-14 14-24-24 14-14 10 10 27-27-10-10z"
+                />
+                <path d="M31 25l64 64" />
+                <path d="M28 76l16 16" />
+                <path d="M84 28l8 8" />
+                <circle cx="33" cy="33" r="12" />
+              </svg>
+            </div>
+            <div class="service-body">
+              <h4>Sửa chữa tại nhà</h4>
+              <p>
+                Kiểm tra miễn phí, báo giá trước khi sửa, bảo hành 3–12 tháng.
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-visual" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <path d="M24 40l36-20 36 20v42l-36 20-36-20z" />
+                <path d="M24 40l36 20 36-20" />
+                <path d="M60 60v42" />
+                <path d="M42 30l36 20" />
+                <path d="M74 75h12" />
+                <path d="M80 69l6 6-6 6" />
+              </svg>
+            </div>
+            <div class="service-body">
+              <h4>Lắp đặt mới</h4>
+              <p>
+                Thi công chuẩn kỹ thuật, ống đồng bọc cách nhiệt, test chạy kỹ.
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-visual" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <rect x="24" y="34" width="72" height="36" rx="8" />
+                <path d="M36 48h34" />
+                <path d="M78 48h4" />
+                <path d="M38 70c4 12 14 20 26 20s22-8 26-20" />
+                <path d="M36 22l6 8" />
+                <path d="M58 18v10" />
+                <path d="M82 22l-6 8" />
+                <path d="M74 82l10 10" />
+                <path d="M44 82L34 92" />
+              </svg>
+            </div>
+            <div class="service-body">
+              <h4>Vệ sinh & Bảo trì</h4>
+              <p>
+                Rửa dàn nóng/lạnh, kiểm tra gas, tiết kiệm 20–30% điện năng.
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-visual" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <path d="M18 90h84" />
+                <path d="M24 90V58l22 12V58l22 12V46h26v44" />
+                <path d="M76 46V28h14v18" />
+                <path d="M34 78h8" />
+                <path d="M54 78h8" />
+                <path d="M76 78h8" />
+                <path d="M92 30c10 2 14-8 6-13" />
+                <path d="M30 45c7 3 12-2 10-8" />
+              </svg>
+            </div>
+            <div class="service-body">
+              <h4>Điện lạnh công nghiệp</h4>
+              <p>Kho lạnh, tủ mát công nghiệp, hệ thống HVAC cho nhà xưởng.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 6: Bảng giá -->
+    <section id="bang-gia" class="section section-alt pricing-section">
+      <div class="container">
+        <div class="section-title compact-title">
+          <h2>Bảng giá</h2>
+          <p>Bảng giá dịch vụ điện lạnh thông dụng cho gia đình bạn</p>
+        </div>
+        <div class="table-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Dịch vụ</th>
+                <th>Mô tả</th>
+                <th>Giá từ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Vệ sinh điều hòa</td>
+                <td>Vệ sinh dàn lạnh, dàn nóng và kiểm tra vận hành</td>
+                <td>330.000 đ</td>
+              </tr>
+              <tr>
+                <td>Nạp gas</td>
+                <td>Nạp gas, đo áp suất và kiểm tra rò rỉ</td>
+                <td>250.000 đ</td>
+              </tr>
+              <tr>
+                <td>Sửa board mạch</td>
+                <td>Sửa board mạch, tủ board thiết bị điện lạnh</td>
+                <td>140.000 đ</td>
+              </tr>
+              <tr>
+                <td>Lắp đặt điều hòa</td>
+                <td>Lắp đặt điều hòa treo tường toàn TP.HCM</td>
+                <td>720.000 đ</td>
+              </tr>
+              <tr>
+                <td>Sửa máy giặt</td>
+                <td>Sửa máy giặt, căn chỉnh và kiểm tra lỗi</td>
+                <td>270.000 đ</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 7: Quy trình -->
+    <section id="quy-trinh" class="section process-section">
+      <div class="container">
+        <div class="section-title compact-title">
+          <h2>Quy trình làm việc</h2>
+          <p>Cường Quốc — Đối tác điện lạnh tin cậy của gia đình bạn</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="process-head">
+              <span class="process-number">1</span>
+              <svg class="process-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M14 33h9c7 0 12-5 12-12v-2" />
+                <path d="M12 38h20" />
+                <path d="M12 25v13" />
+                <path d="M25 17c0 5-3 8-7 8 0-5 3-8 7-8z" />
+                <path d="M34 12c4 3 5 7 2 11-4-2-5-7-2-11z" />
+              </svg>
+            </div>
+            <h4>Tiếp nhận</h4>
+            <p>Tiếp nhận thông tin, tình trạng máy và khu vực cần hỗ trợ.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-head">
+              <span class="process-number">2</span>
+              <svg class="process-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <rect x="11" y="14" width="26" height="24" rx="3" />
+                <path d="M16 10v7" />
+                <path d="M32 10v7" />
+                <path d="M11 22h26" />
+                <path d="M17 28h3M23 28h3M29 28h3M17 33h3M23 33h3" />
+              </svg>
+            </div>
+            <h4>Hẹn lịch</h4>
+            <p>Hẹn thời gian phù hợp để kỹ thuật viên đến kiểm tra.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-head">
+              <span class="process-number">3</span>
+              <svg class="process-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <circle cx="21" cy="21" r="11" />
+                <path d="M30 30l9 9" />
+              </svg>
+            </div>
+            <h4>Kiểm tra</h4>
+            <p>Kiểm tra thiết bị, xác định lỗi và báo giá trước khi làm.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-head">
+              <span class="process-number">4</span>
+              <svg class="process-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M16 14l18 20" />
+                <path d="M34 14L16 34" />
+                <path d="M12 12l8 8" />
+                <path d="M28 28l8 8" />
+                <circle cx="15" cy="15" r="4" />
+                <circle cx="33" cy="15" r="4" />
+                <circle cx="15" cy="33" r="4" />
+                <circle cx="33" cy="33" r="4" />
+              </svg>
+            </div>
+            <h4>Thực hiện</h4>
+            <p>Tiến hành sửa chữa, vệ sinh hoặc lắp đặt đúng kỹ thuật.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-head">
+              <span class="process-number">5</span>
+              <svg class="process-icon" viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 8l16 6v11c0 10-6 16-16 20C14 41 8 35 8 25V14z" />
+                <path d="M17 24l5 5 10-11" />
+              </svg>
+            </div>
+            <h4>Bảo hành</h4>
+            <p>Bàn giao, hướng dẫn sử dụng và bảo hành sau dịch vụ.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 8: Kinh nghiệm -->
+    <section id="kinh-nghiem" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Kinh nghiệm</h2>
+          <p>Hơn 10 năm trong ngành điện lạnh</p>
+        </div>
+        <div class="experience-list">
+          <article class="exp-item">
+            <h4>10+ năm kinh nghiệm</h4>
+            <p>
+              Xử lý hàng chục nghìn ca sửa chữa điều hòa, tủ lạnh, máy giặt cho
+              hộ gia đình và doanh nghiệp.
+            </p>
+          </article>
+          <article class="exp-item">
+            <h4>Đối tác uy tín</h4>
+            <p>
+              Hợp tác bảo trì định kỳ cho chuỗi cửa hàng, văn phòng, khách sạn
+              và khu công nghiệp.
+            </p>
+          </article>
+          <article class="exp-item">
+            <h4>Chia sẻ kiến thức</h4>
+            <p>
+              Blog mẹo vệ sinh máy lạnh, tiết kiệm điện, nhận biết lỗi thường
+              gặp — cập nhật hàng tuần.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 9: Dự án / Hình ảnh -->
+    <section id="du-an" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hình ảnh thực tế</h2>
+          <p>Một số công trình VinCool đã thực hiện</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="du-an-1.jpg"
+              alt="Kỹ thuật viên vệ sinh máy lạnh"
+              onerror="
+                this.onerror = null;
+                this.src = 'minhhoa1.png';
+              "
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="du-an-2.jpg"
+              alt="Tháo lưới lọc máy lạnh để vệ sinh"
+              onerror="
+                this.onerror = null;
+                this.src = 'backroud.png';
+              "
+            />
+          </div>
+          <div class="gallery-item">
+            <img src="thucte1.png" alt="Kiểm tra dàn nóng máy lạnh" />
+          </div>
+          <div class="gallery-item">
+            <img src="thucte20.png" alt="Vệ sinh lưới lọc máy lạnh" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 10: Đánh giá -->
+    <section id="danh-gia" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Khách hàng nói gì</h2>
+          <p>Phản hồi từ khách hàng đã sử dụng dịch vụ</p>
+        </div>
+        <div class="testimonials">
+          <article class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Gọi 8h tối, kỹ thuật đến trong 40 phút, sửa máy lạnh không lạnh
+              xong ngay. Giá hợp lý, có phiếu bảo hành."
+            </p>
+            <span class="author">— Chị Nguyễn Thị H., Q.7</span>
+          </article>
+          <article class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Công ty mình ký hợp đồng bảo trì 20 máy lạnh văn phòng, Cường
+              Quốc làm rất chuyên nghiệp, đúng lịch."
+            </p>
+            <span class="author">— Anh Trần Văn K., Quận 1</span>
+          </article>
+          <article class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Vệ sinh máy lạnh sạch, chạy mát hơn hẳn. Nhân viên lễ phép, dọn
+              dẹp sau khi làm xong."
+            </p>
+            <span class="author">— Chị Lê Thị M., Thủ Đức</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 11: Liên hệ -->
+    <section id="lien-he" class="section contact-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Liên hệ</h2>
+          <p>Liên hệ ngay — tư vấn miễn phí 24/7</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Thông tin liên hệ</h3>
+            <div class="contact-item">
+              <div class="icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h4>Hotline</h4>
+                <p class="hotline-line">
+                  <a class="hotline-link" href="tel:0966424578"
+                    ><strong>0966 424 578</strong></a
+                  >
+                  <span class="hotline-sep">/</span>
+                  <a class="hotline-link" href="tel:0966327623"
+                    ><strong>0966 327 623</strong></a
+                  >
+                  <span class="hotline-meta">(24/7)</span>
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" />
+                  <circle cx="12" cy="9" r="2.4" />
+                </svg>
+              </div>
+              <div>
+                <h4>Trụ sở chính</h4>
+                <p>
+                  4/8F Bùi Thị Lùng, xã Đông Thạnh, Hóc Môn, TP. Hồ Chí Minh
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="M3 7l9 7 9-7" />
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>trandinhkhanh16042002@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon icon-zalo" aria-hidden="true">Zalo</div>
+              <div>
+                <h4>Zalo</h4>
+                <p>0966 424 578</p>
+              </div>
+            </div>
+            <div class="contact-map" aria-label="Khu vực Hóc Môn">
+              <div class="map-road map-road-main"></div>
+              <div class="map-road map-road-alt"></div>
+              <span>Hóc Môn</span>
+            </div>
+          </div>
+          <form class="contact-form">
+            <h3>Gửi yêu cầu tư vấn</h3>
+            <input type="text" placeholder="Họ và tên *" required />
+            <input type="tel" placeholder="Số điện thoại *" required />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Nội dung cần tư vấn..."></textarea>
+            <button type="submit" class="btn-submit">Gửi yêu cầu</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Đối tác -->
+    <section
+      class="section section-alt"
+      style="padding-top: 32px; padding-bottom: 32px"
+    >
+      <div class="container">
+        <div class="partners" aria-label="Đối tác thương hiệu">
+          <figure class="partner-logo">
+            <img src="daikin.png" alt="Daikin" />
+          </figure>
+          <figure class="partner-logo">
+            <img src="panasonic.png" alt="Panasonic" />
+          </figure>
+          <figure class="partner-logo">
+            <img src="lg.png" alt="LG" />
+          </figure>
+          <figure class="partner-logo">
+            <img src="samsung.png" alt="Samsung" />
+          </figure>
+          <figure class="partner-logo">
+            <img src="toshiba.png" alt="Toshiba" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h4>Cường Quốc</h4>
+            <p class="footer-desc">
+              Công ty TNHH Thương mại Dịch vụ Cường Quốc — Điện lạnh & Điều hòa
+              chuyên nghiệp.
+            </p>
+            <p class="footer-address">
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" />
+                  <circle cx="12" cy="9" r="2.4" />
+                </svg>
+              </span>
+              <strong>Trụ sở chính:</strong> 4/8F Bùi Thị Lùng, xã Đông Thạnh,
+              Hóc Môn, TP. Hồ Chí Minh
+            </p>
+          </div>
+          <div>
+            <h4>Dịch vụ</h4>
+            <ul class="footer-services">
+              <li>Sửa máy lạnh</li>
+              <li>Vệ sinh máy lạnh</li>
+              <li>Di dời máy lạnh</li>
+              <li>Lắp đặt máy lạnh</li>
+              <li>Tháo lắp máy lạnh</li>
+              <li>Sửa máy giặt</li>
+              <li>Vệ sinh máy giặt</li>
+              <li>Sửa tủ lạnh</li>
+              <li>Sửa máy nước nóng</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Hotline</h4>
+            <a class="footer-hotline" href="tel:0966424578">
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </span>
+              0966 424 578 <small>(Dịch vụ 24/7)</small>
+            </a>
+            <a class="footer-hotline" href="tel:0966327623">
+              <span aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </span>
+              0966 327 623 <small>(Tư vấn kỹ thuật)</small>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">© 2026 Khanhtran. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <!-- Nút nổi -->
+    <a
+      href="tel:0966424578"
+      class="float-phone"
+      aria-label="Gọi hotline 0966 424 578 hoặc 0966 327 623"
+    >
+      <span class="float-phone-icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z"
+          />
+        </svg>
+      </span>
+      <span class="float-phone-text">
+        <span class="float-phone-main">0966 424 578</span>
+        <!-- <span class="float-phone-sub">/ 0966 327 623</span> -->
+        <span class="float-phone-meta">(24/7)</span>
+      </span>
+    </a>
+    <div class="float-actions">
+      <a
+        href="https://zalo.me/0966424578"
+        class="float-zalo"
+        target="_blank"
+        rel="noopener"
+        >Zalo</a
+      >
+      <button class="float-top" aria-label="Lên đầu trang">↑</button>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
