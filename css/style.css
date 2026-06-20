@@ -1554,16 +1554,18 @@ img {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
-    right: 0;
+    left: 12px;
+    right: 12px;
     background: var(--white);
     flex-direction: column;
-    padding: 12px 16px 16px;
-    box-shadow: var(--shadow);
+    gap: 8px;
+    padding: 12px;
+    box-shadow: 0 16px 36px rgba(11, 35, 64, 0.16);
     max-height: calc(100dvh - var(--header-h));
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    border-top: 1px solid #eee;
+    border: 1px solid rgba(30, 136, 229, 0.14);
+    border-radius: 14px;
     z-index: 1001;
   }
 
@@ -1574,9 +1576,11 @@ img {
   .nav a {
     width: 100%;
     text-align: left;
-    padding: 14px 12px;
-    font-size: 14px;
-    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #f7fbff;
+    border: 1px solid #e6f1fb;
   }
 
   .section {
